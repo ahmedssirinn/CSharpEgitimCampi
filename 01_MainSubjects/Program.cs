@@ -81,37 +81,37 @@ namespace _01_MainSubjects
             //int number = 20;
             //Console.WriteLine(number);
 
-            int hamburgerprice = 120;
-            int cokeprice = 35;
-            int pizzaprice = 150;
-            int friesprice = 50;
-            int waterprice = 20;
+            //int hamburgerprice = 120;
+            //int cokeprice = 35;
+            //int pizzaprice = 150;
+            //int friesprice = 50;
+            //int waterprice = 20;
 
-            Console.WriteLine("**** Restoran Menu ****");
+            //Console.WriteLine("**** Restoran Menu ****");
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            Console.WriteLine("**** Food Types ****");
-            Console.WriteLine();
-            Console.WriteLine("Hamburger = " + hamburgerprice);
-            Console.WriteLine("Pizza = " + pizzaprice);
-            Console.WriteLine("Fries = " + friesprice);
+            //Console.WriteLine("**** Food Types ****");
+            //Console.WriteLine();
+            //Console.WriteLine("Hamburger = " + hamburgerprice);
+            //Console.WriteLine("Pizza = " + pizzaprice);
+            //Console.WriteLine("Fries = " + friesprice);
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            Console.WriteLine("**** Beverage Types ****");
-            Console.WriteLine();
-            Console.WriteLine("Coke = " + cokeprice);
-            Console.WriteLine("Water = " + waterprice);
+            //Console.WriteLine("**** Beverage Types ****");
+            //Console.WriteLine();
+            //Console.WriteLine("Coke = " + cokeprice);
+            //Console.WriteLine("Water = " + waterprice);
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            int totalprice;
-            Console.WriteLine("**** Payment ****");
-            Console.WriteLine();
+            //int totalprice;
+            //Console.WriteLine("**** Payment ****");
+            //Console.WriteLine();
 
-            totalprice = (2 * hamburgerprice) + pizzaprice + (2 * cokeprice) + waterprice;
-            Console.WriteLine("Total Price = " + totalprice + " TL");
+            //totalprice = (2 * hamburgerprice) + pizzaprice + (2 * cokeprice) + waterprice;
+            //Console.WriteLine("Total Price = " + totalprice + " TL");
 
 
             #endregion

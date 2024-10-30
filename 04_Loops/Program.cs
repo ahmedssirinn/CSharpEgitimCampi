@@ -44,6 +44,26 @@ namespace _04_Loops
 
             #endregion
 
+            #region For Faköriyel 
+
+            //Console.WriteLine("**** FAKTÖRİYEL ****");
+            //Console.WriteLine();
+
+            //int fact = 1, number;
+            //Console.Write("Sayı = ");
+            //number = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= number; i++)
+            //{
+            //    fact *= i;
+            //}
+
+            //Console.WriteLine(number + "! = " + fact);
+
+            //Console.Read();
+
+            #endregion
+
             #region For Döngüsü Karar Yapıları
 
             //for (int i = 1; i<=100; i++)
@@ -155,9 +175,122 @@ namespace _04_Loops
 
             #endregion
 
+            #region Örnek Sınav Sorusu 2 (double method)
 
+            //double ortalama = 0;
+
+            //Hesapla(ortalama);
+
+            #endregion
 
             Console.Read();
         }
+            #region Örnek Sınav Sorusu 2 devamı
+
+        //public static void Hesapla(double ortalama)
+        //{
+        //    double vizenotu, finalnotu, butnotu, butortalama;
+
+        //    try
+        //    {
+        //        while (true)
+        //        {
+        //            Console.Write("Vize Notu = ");
+        //            vizenotu = double.Parse(Console.ReadLine());
+
+        //            if (vizenotu > 100)
+        //            {
+        //                Console.WriteLine("Sınav notu 100'den büyük olamaz");
+        //            }
+        //            else
+        //            {
+        //                break;
+        //            }
+        //        }
+
+        //        while (true)
+        //        {
+        //            Console.Write("Final Notu = ");
+        //            finalnotu = double.Parse(Console.ReadLine());
+
+        //            if (finalnotu > 100)
+        //            {
+        //                Console.WriteLine("Sınav notu 100'den Büyük olamaz");
+
+        //            }
+        //            else if (finalnotu < 35)
+        //            {
+        //                Console.WriteLine("KALDINIZ! - Herhangi bir dersten geçmeniz için Final sınavından FF almamalısınız!!");
+        //                goto ButSinavi;
+        //            }
+        //            else
+        //            {
+        //                break;
+        //            }
+        //        }
+
+        //        ortalama = (vizenotu * 0.4) + (finalnotu * 0.6);
+
+        //        if (ortalama >= 50)
+        //        {
+        //            Console.WriteLine("Ortalamanız = " + ortalama + " G");
+        //        }
+
+        //        else
+        //        {
+        //            Console.WriteLine("Ortalamanız = " + ortalama + " K");
+        //            Console.WriteLine();
+        //        }
+
+        //    ButSinavi:;
+
+        //        Console.WriteLine("Bütünleme Sınavı!!!");
+        //        Console.WriteLine();
+
+        //        if (ortalama < 50)
+        //        {
+        //            while (true)
+        //            {
+
+        //                Console.Write("Büt Notu = ");
+        //                butnotu = double.Parse(Console.ReadLine());
+
+        //                if (butnotu > 100)
+        //                {
+        //                    Console.WriteLine("Sınav notu 100'den büyük olamaz!");
+        //                }
+        //                else
+        //                {
+        //                    break;
+        //                }
+        //            }
+
+        //            butortalama = (vizenotu * 0.4) + (butnotu * 0.6);
+
+        //            if (butortalama >= 50)
+        //            {
+        //                Console.WriteLine("Yeni Ortalamanız = " + butortalama + " G");
+        //            }
+        //            else
+        //            {
+        //                Console.WriteLine("Yeni Ortalamanız = " + butortalama + " K");
+        //            }
+        //        }
+
+        //    }
+
+        //    catch (Exception hata)
+        //    {
+        //        Console.WriteLine("Hata meydana geldi!! \n" + hata);
+        //    }
+
+        //    finally
+        //    {
+        //        Console.Read();
+        //    }
+        //}
+        
+        #endregion
+
     }
 }
